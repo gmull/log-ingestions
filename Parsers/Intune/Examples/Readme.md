@@ -206,3 +206,47 @@
 ```json
 {"time":"2024-12-20T00:33:46.2052000Z","tenantId":"49f8a7b6-e2d1-41ac-b3c5-64c7e18f1234","category":"OperationalLogs","operationName":"Enrollment","resultType":"Success","properties":{"AADDeviceId":"83d9a21b-d67e-45ab-a32d-9bae85c67890","IntuneDeviceId":"15f64a2f-b41a-4a5c-93ce-111e3ac8bf56","IntuneAccountId":"25b6c79f-e511-43da-81af-f6be5d9f2310","IntuneUserId":"42c1a51d-75cd-4212-ba95-85c21a432109","MessageId":"93ce4a3e-c21b-41ab-a98c-e53211ac43fd","AADTenantId":"19f8a7b6-e2d1-41ac-b3c5-64c7e18f1234","OperationalLogCategory":"DeviceEnrollment","EnrollmentTimeUTC":"2024-12-20T00:33:46.2052Z","ScenarioName":"Microsoft.Management.Services.Diagnostics.SLAEvents.EnrollmentSLAEvent","OsVersion":"10.0.12345.6789","ScaleUnit":"SU001","Os":"Windows","EnrollmentType":"WindowsAutoEnrollment","FailureReason":"None","FailureCategory":"Not Applicable"}}
 ```
+
+
+### Compliance Logs
+
+*Sample Log*
+
+```json
+{
+  "time": "2024-12-20T17:28:32.8230000Z",
+  "tenantId": "01234567-89ab-cdef-0123-456789abcdef",
+  "category": "DeviceComplianceOrg",
+  "operationName": "DeviceCompliance",
+  "resultType": "None",
+  "properties": {
+    "DeviceName": "NYC-HQ001",
+    "UPN": "john.doe@example.com",
+    "ComplianceState": "1",
+    "ComplianceState_loc": "Compliant",
+    "OSDescription": "Windows 11",
+    "OSVersion": "10.0.22000.1945",
+    "OS": "Windows",
+    "OS_loc": "Windows",
+    "OwnerType": 1,
+    "OwnerType_loc": "Corporate",
+    "DeviceId": "fedcba98-7654-3210-9876-543210fedcba",
+    "LastContact": "2024-11-15 14:30:00.0000000",
+    "UserId": "12345678-9012-3456-7890-123456789012",
+    "IMEI": "",
+    "SerialNumber": "SN1234567890",
+    "RetireAfterDatetime": "",
+    "ManagementAgents": 1,
+    "ManagementAgents_loc": "MDM and ConfigMgr",
+    "DeviceType": 2,
+    "UserName": "Jane Smith",
+    "InGracePeriodUntil": "2024-12-25 16:00:00.0000000",
+    "DeviceHealthThreatLevel": 1,
+    "DeviceHealthThreatLevel_loc": "Low",
+    "UserEmail": "jane.smith@example.com",
+    "BatchId": "abcdef01-2345-6789-abcd-ef0123456789",
+    "IntuneAccountId": "98765432-1098-7654-3210-987654321098",
+    "AADTenantId": "01234567-89ab-cdef-0123-456789abcdef"
+  }
+}
+```
