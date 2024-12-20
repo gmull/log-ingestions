@@ -1,2 +1,3 @@
 Date,Initiated by (actor),Application name,Activity,Target,Category,Status,Activity name,Operation type,Actor type
-"2024-12-19T19:11:38.602Z","geraldmull@gtechcumulas.org","Microsoft Intune portal extension","syncDevice ManagedDevice","Target : Microsoft.Management.Services.Api.ManagedDevice, Name : syncDevice, ObjectID : 2fdc75ba-3405-41d0-b64c-1fa684575538","Device","Success","syncDevice ManagedDevice","Action","ItPro"
+"2024-12-19T19:11:38.602Z","jane.smith@dummycorp.com","Intune Simulator","Enrollment Sync","Target : Test Device, Name : enrollDevice, ObjectID :
+87654321-0987-6543-2109-876543210987","Device","Success","Enrollment Sync","Action","IT Support"
